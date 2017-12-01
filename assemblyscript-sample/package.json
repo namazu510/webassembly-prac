@@ -1,0 +1,14 @@
+{
+  "name": "assemblyscript-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "asc -c ./tsconfig.json --asmjsFile -O -o py_calc.wasm py_calc.ts"
+  },
+  "author": "namazu510",
+  "license": "MIT",
+  "dependencies": {
+    "assemblyscript": "^0.3.0"
+  }
+}
