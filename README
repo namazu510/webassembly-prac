@@ -1,0 +1,28 @@
+# Webassmbly-Plac
+
+TypeScriptのサブセット言語であるAssemblyScriptを用いて
+
+円周率計算という単純問題について素のJSとWebAssemblyでの速度比較を行います。
+
+解説＆結果等の記事については => ()
+
+
+# 実行方法
+※ JavaScript実装については新しいブラウザで`javascript-sample/index.html`を開いてください。
+
+assemblyの方について
+
+## Build
+
+```
+npm install
+npm run build
+```
+
+これで py_calc.tsをコンパイルしwasmファイルが生成できます。
+
+## Run
+
+新しいブラウザで`assemblyscript-sample/index.html`を開いてください。
+※ビルドしたwasmファイルをレポジトリに含めていますので、ブラウザで開くだけでも動きます。
+
